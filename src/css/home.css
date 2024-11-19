@@ -1,0 +1,84 @@
+@font-face {
+  font-family: montserrat;
+  src: url('../../public/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: montserratThinItalic;
+  src: url('../../public/Montserrat-ThinItalic.ttf');
+}
+
+@font-face {
+  font-family: montserratItalic;
+  src: url('../../public/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: montserratThin;
+  src: url('../../public/Montserrat-Thin.ttf')
+}
+
+@font-face {
+  font-family: montserratExtraLight;
+  src: url('../../public/Montserrat-ExtraLight.ttf')
+}
+
+:root{
+    --teal:#BEE3DC;
+    --blue:#3D4680;
+    --orange:#E87C5D;
+    --red:#AF1F24;
+    --white:#FFFFFF;
+}
+
+body{
+  margin: 0;
+}
+
+.home-wrapper{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.home-background{
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home-logo{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.home-text{
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  font-family: 'montserrat', sans-serif;
+}
+
+@media screen and (max-width: 479px) {
+  .home-text{
+    font-size: 5vw;
+    width: 70%;
+  }
+}

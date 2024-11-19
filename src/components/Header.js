@@ -12,9 +12,12 @@ const Header = () => {
 
     return(
         <div className='header-wrapper'>
-            <div className='header-left'>
+            <Link 
+                to='/'
+                className='header-left'
+                onClick={() => handleLinkClick(null)}>
                 <img src={LogoWhite} alt='logo' className='header-logo'/>
-            </div>
+            </Link>
             <div className='header-mid'></div>
             <div className='header-right'>
                 <Link 
