@@ -1,0 +1,52 @@
+:root{
+    --teal:#BEE3DC;
+    --blue:#3D4680;
+    --orange:#E87C5D;
+    --red:#AF1F24;
+    --white:#FFFFFF;
+}
+
+.header-wrapper{
+    display: flex;
+    height: 100px;
+}
+
+.header-left, .header-mid, .header-right{
+    width: 33.33%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-link{
+    color: var(--white);
+    font-family: 'montserrat', sans-serif;
+    font-size: .8rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 479px) {
+    .header-wrapper{
+        height: 80px;
+        background: var(--orange);
+    }
+
+    .header-mid{
+        width: 0%;
+    }
+
+    .header-left{
+        width: 40%;
+    }
+
+    .header-right{
+        width: 60%;
+    }
+
+    .header-logo{
+        width: 80%;
+    }
+}
