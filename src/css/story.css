@@ -42,6 +42,10 @@
     align-items: center;
 }
 
+.intro-subtitle{
+    font-family: sugar;
+}
+
 @media screen and (max-width: 479px) {
     .intro-title{
         font-size: 5vw;
@@ -64,7 +68,6 @@
     .intro-subtitle{
         margin: 2% 0 2% 0;
         font-size: 3vw;
-        font-family: sugar;
     }
 
     .intro-text-one, .intro-text-two{

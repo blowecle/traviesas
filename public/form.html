@@ -1,30 +1,48 @@
 <form method="POST" data-netlify="true" name="contact" className='contact-form'>
-    <input
-    type="hidden"
-    name="form-name"
-    value="contact"
-    />
+  <input
+  type="hidden"
+  name="form-name"
+  value="contact"
+  />
+  <div className='contact-row-wrapper'>
     <input
     className='name-input'
     name="name"
     type="text"
-    placeholder="Your name"
+    placeholder="Name"
     required
     />
     <input
-    className='email-input'
-    name="email"
-    type="email"
-    placeholder="Your email"
+    className='date-input'
+    name="date"
+    type="text"
+    placeholder="Date"
     required
     />
-    <textarea
-    className='message-input'
-    name="message"
-    placeholder="What can we do for you?"
+  </div>
+  <div className='contact-row-wrapper'>
+    <input
+    className='email-input'
+    name="email"
+    type="text"
+    placeholder="Email"
     required
-    ></textarea>
-    <div className='button-wrapper'>
-      <button type="submit">Send</button>
-    </div>
+    />
+    <input
+    className='time-input'
+    name="time"
+    type="text"
+    placeholder="Time"
+    required
+    />
+  </div>
+  <textarea
+  className='message-input'
+  name="message"
+  placeholder="What can we do for you?"
+  required
+  ></textarea>
+  <div className='button-wrapper'>
+    <button className='button' type="submit">Submit</button>
+  </div>
 </form>

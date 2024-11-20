@@ -13,6 +13,7 @@
     width: 100%;
     position: fixed;
     z-index: 10;
+    background: var(--orange);
 }
 
 .app{
@@ -40,6 +41,11 @@
     width: 33.3333%;
 }
 
+.header-link:hover {
+    background: var(--red);
+    transition: background-color .7s ease;
+}
+
 .active-link {
     background: var(--red);
 }
@@ -47,7 +53,6 @@
 @media screen and (max-width: 479px) {
     .header-wrapper{
         height: 80px;
-        background: var(--orange);
     }
 
     .header-mid{

@@ -24,23 +24,17 @@ const Header = () => {
                 <Link 
                     to='/menu' 
                     className={`header-link ${activeLink === 'menu' ? 'active-link' : ''}`}
-                    onClick={() => handleLinkClick('menu')}
-                >
-                    MENU
+                    onClick={() => handleLinkClick('menu')}>MENU
                 </Link>
                 <Link 
                     to='/catering' 
                     className={`header-link ${activeLink === 'catering' ? 'active-link' : ''}`}
-                    onClick={() => handleLinkClick('catering')}
-                >
-                    CATERING
+                    onClick={() => handleLinkClick('catering')}>CATERING
                 </Link>
                 <Link 
                     to='/story' 
                     className={`header-link ${activeLink === 'story' ? 'active-link' : ''}`}
-                    onClick={() => handleLinkClick('story')}
-                >
-                    OUR STORY
+                    onClick={() => handleLinkClick('story')}>OUR STORY
                 </Link>
             </div>
         </div>

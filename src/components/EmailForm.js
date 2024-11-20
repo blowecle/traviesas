@@ -1,4 +1,4 @@
-
+import '../css/emailform.css';
 
 export default function EmailForm() {
 
@@ -10,20 +10,38 @@ export default function EmailForm() {
             name="form-name"
             value="contact"
             />
-            <input
-            className='name-input'
-            name="name"
-            type="text"
-            placeholder="Your name"
-            required
-            />
-            <input
-            className='email-input'
-            name="email"
-            type="email"
-            placeholder="Your email"
-            required
-            />
+            <div className='contact-row-wrapper'>
+              <input
+              className='name-input'
+              name="name"
+              type="text"
+              placeholder="Name"
+              required
+              />
+              <input
+              className='date-input'
+              name="date"
+              type="text"
+              placeholder="Date"
+              required
+              />
+            </div>
+            <div className='contact-row-wrapper'>
+              <input
+              className='email-input'
+              name="email"
+              type="text"
+              placeholder="Email"
+              required
+              />
+              <input
+              className='time-input'
+              name="time"
+              type="text"
+              placeholder="Time"
+              required
+              />
+            </div>
             <textarea
             className='message-input'
             name="message"
@@ -31,7 +49,7 @@ export default function EmailForm() {
             required
             ></textarea>
             <div className='button-wrapper'>
-              <button type="submit">Send</button>
+              <button className='button' type="submit">Submit</button>
             </div>
         </form>
       );

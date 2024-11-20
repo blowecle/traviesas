@@ -1,0 +1,38 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.contact-row-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0 2% 0;
+}
+
+.name-input, .email-input{
+    width: 60%;
+}
+
+.date-input, .time-input{
+    width: 33%;
+}
+
+.date-input, .time-input, .name-input, .email-input, .message-input, .button{
+    border: 1px solid var(--orange);
+    color: var(--blue);
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+.button-wrapper{
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+    background: var(--orange);
+    border: none;
+    color: var(--white);
+    margin-top: 2%;
+}
