@@ -16,8 +16,8 @@ const Menu = () => {
     return (
         <div className='menu-wrapper'>
             <div className='menu-header'>
-                <div className='menu-header-text'>WICKED DELICIOUS TACOS</div>
-                <img src={HeaderImage} alt='taco' className='menu-header-image'/>
+                <div className='header-text'>WICKED DELICIOUS TACOS</div>
+                <img src={HeaderImage} alt='taco' className='header-image'/>
             </div>
             <section className='main-menu'>
                 <div className='menu-item'>
