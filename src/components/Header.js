@@ -8,6 +8,7 @@ const Header = () => {
 
     const handleLinkClick = (linkName) => {
         setActiveLink(linkName);
+        window.scrollTo(0, 0);
     };
 
     return(
