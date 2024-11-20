@@ -1,4 +1,4 @@
-import HeaderImage from '../assets/menu/TacoImage.jpg'
+import HeaderImage from '../assets/menu/TacoImage.webp'
 import Flourish from '../assets/home/Flourish.png'
 import TacosBanner from '../assets/menu/Tacos.png'
 import TostadasBanner from '../assets/menu/Tostadas.png'

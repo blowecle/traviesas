@@ -1,6 +1,6 @@
 import '../css/catering.css';
 import EmailForm from './EmailForm';
-import HeaderImage from '../assets/catering/CateringHeader.jpg'
+import HeaderImage from '../assets/catering/CateringHeader.webp'
 import Flourish from '../assets/catering/Flourish.png'
 import ForkAndSpoon from '../assets/catering/ForkAndSpoon.png'
 import Menu from '../assets/catering/Menu.png'
