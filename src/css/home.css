@@ -87,6 +87,7 @@ a{
   color: var(--blue);
   font-style: bold;
   font-weight: 600;
+  width: 80%;
 }
 
 .home-lower-wrapper{

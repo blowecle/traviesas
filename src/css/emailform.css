@@ -1,7 +1,7 @@
 .contact-form{
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+    width: 100%;
 }
 
 .contact-row-wrapper{
@@ -15,7 +15,7 @@
 }
 
 .date-input, .time-input{
-    width: 33%;
+    width: 28%;
 }
 
 .date-input, .time-input, .name-input, .email-input, .message-input, .button{
@@ -31,8 +31,16 @@
 
 .button{
     width: 100%;
+    height: 40px;
     background: var(--orange);
     border: none;
     color: var(--white);
     margin-top: 2%;
+}
+
+
+@media screen and (max-width: 469px){
+    .message-input{
+        height: 100px;
+    }
 }

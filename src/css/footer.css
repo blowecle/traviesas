@@ -44,7 +44,7 @@ a{
 .footer-social-wrapper{
     display: flex;
     justify-content: space-evenly;
-    width: 10%;
+    align-items: center;
 }
 
 @media screen and (max-width: 479px) {
@@ -64,14 +64,19 @@ a{
     }
 
     .footer-email, .divider{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .footer-contact-text{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
 
     .footer-social-wrapper{
         margin-bottom: 10%;
+    }
+
+    .social{
+        transform: scale(2);
+        padding: 0 20px 0 20px;
     }
 }

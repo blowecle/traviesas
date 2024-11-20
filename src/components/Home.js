@@ -20,8 +20,8 @@ const Home = () => {
                 <img src={TruckGif} alt='truck-gif' className='truck-gif'/>
                 <img src={Flourish} alt='flourish' className='flourish'/>
                 <div className='home-lower-text'>
-                    Our Mission is to take traditional family recipes<br/>
-                    and meld them with new techniques, flavors and ideas to<br/>
+                    Our Mission is to take traditional family recipes
+                    and meld them with new techniques, flavors and ideas to
                     bring the best Mexican food to West Ireland.
                 </div>
                 <img src={Flourish} alt='flourish' className='flourish bottom-flourish'/>
