@@ -23,6 +23,11 @@
   src: url('../../public/Montserrat-ExtraLight.ttf')
 }
 
+@font-face {
+  font-family: sugar;
+  src:url('../../public/SugarCream.otf');
+}
+
 :root{
     --teal:#BEE3DC;
     --blue:#3D4680;
@@ -68,17 +73,52 @@ a{
   width: 70%;
   height: auto;
   position: absolute;
-  top: 85%;
+  top: 80%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
   color: white;
+  font-family: sugar;
+}
+
+.home-lower-text{
   font-family: 'montserrat', sans-serif;
+  text-align: center;
+  color: var(--blue);
+  font-style: bold;
+  font-weight: 600;
+}
+
+.home-lower-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 479px) {
   .home-text{
-    font-size: 5vw;
+    font-size: 8vw;
     width: 70%;
+  }
+
+  .truck-gif{
+    margin: 10% 0 10% 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .flourish{
+    width: 30%;
+    height: auto;
+  }
+
+  .home-lower-text{
+    font-size: 3vw;
+    margin: 10% 0 10% 0;
+  }
+
+  .bottom-flourish{
+    margin-bottom: 10%;
   }
 }

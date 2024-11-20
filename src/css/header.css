@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease;
+    transition: background-color .7s ease;
     width: 33.3333%;
 }
 
