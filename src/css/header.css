@@ -71,3 +71,28 @@
         width: 80%;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    :root{
+        --header-height: 100px;
+    }
+    .header-wrapper{
+        height: var(--header-height);
+    }
+
+    .header-mid{
+        width: 10%;
+    }
+
+    .header-left{
+        width: 35%;
+    }
+
+    .header-right{
+        width: 48%;
+    }
+
+    .header-logo{
+        width: 60%;
+    }
+}

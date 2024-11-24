@@ -61,10 +61,7 @@ a{
 }
 
 .home-logo{
-  width: 50%;
-  height: auto;
   position: absolute;
-  top: 15%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -97,7 +94,18 @@ a{
   align-items: center;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 380px){
+  .home-background{
+    width: auto;
+    height: 100%;
+  }
+
+  .home-logo{
+    width: 50%;
+    height: auto;
+    top: 150px;
+  }
+
   .home-text{
     font-size: 8vw;
     width: 70%;
@@ -117,6 +125,78 @@ a{
   .home-lower-text{
     font-size: 3vw;
     margin: 10% 0 10% 0;
+  }
+
+  .bottom-flourish{
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 479px) {
+  .home-logo{
+    width: 50%;
+    height: auto;
+    top: 130px;
+  }
+
+  .home-text{
+    font-size: 8vw;
+    width: 70%;
+  }
+
+  .truck-gif{
+    margin: 10% 0 10% 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .flourish{
+    width: 30%;
+    height: auto;
+  }
+
+  .home-lower-text{
+    font-size: 3vw;
+    margin: 10% 0 10% 0;
+  }
+
+  .bottom-flourish{
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width:480px) and (max-width: 768px){
+  .home-background{
+    width: 100%;
+    height:auto;
+  }
+
+  .home-logo{
+    width: 40%;
+    height: auto;
+    top: 60px;
+  }
+  
+  .home-text{
+    font-size: 8vw;
+    width: 70%;
+  }
+
+  .truck-gif{
+    margin: 10% 0 10% 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .flourish{
+    width: 30%;
+    height: auto;
+  }
+
+  .home-lower-text{
+    font-size: 2.4vw;
+    margin: 10% 0 10% 0;
+    width: 65%;
   }
 
   .bottom-flourish{

@@ -50,7 +50,7 @@ a{
 @media screen and (max-width: 479px) {
     .footer-logo{
         width: 30%;
-        margin: 5% 0 5% 0;
+        margin: 10% 0 5% 0;
     }
 
     .footer-contact-wrapper{
@@ -73,6 +73,40 @@ a{
 
     .footer-social-wrapper{
         margin-bottom: 10%;
+    }
+
+    .social{
+        transform: scale(2);
+        margin: 0 20px 0 20px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 768px){
+    .footer-logo{
+        width: 15%;
+        margin: 5% 0 2.5% 0;
+    }
+
+    .footer-contact-wrapper{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .footer-text{
+        font-size: 3vw;
+        margin-bottom: 1.5%;
+    }
+
+    .footer-email, .divider{
+        font-size: 1.25vw;
+    }
+
+    .footer-contact-text{
+        font-size: 1.25vw;
+    }
+
+    .footer-social-wrapper{
+        margin-bottom: 5%;
     }
 
     .social{

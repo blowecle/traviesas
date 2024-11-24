@@ -12,9 +12,6 @@ const Home = () => {
             <div className='home-wrapper'>
                 <img src={HomeBackgroundImage} alt='background' className='home-background'/>
                 <img src={HomeLogo} alt='logo' className='home-logo'/>
-                <div className='home-text'>
-                    Serving West Ireland some<br/>wicked delicious tacos!
-                </div>
             </div>
             <div className='home-lower-wrapper'>
                 <img src={TruckGif} alt='truck-gif' className='truck-gif'/>

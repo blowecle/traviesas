@@ -78,3 +78,44 @@
         height: 27px;
     }
 }
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .header-text{
+        font-size: 2vw;
+    }
+
+    .menu-item{
+        width: 50%;
+    }
+
+    .menu-filler{
+        width: 10%;
+        margin-right: 5%;
+        margin-left: 10%;
+    }
+
+    .menu-banner{
+        width: auto;
+        height: 27px;
+        margin: 10% 0 5% 25%;
+    }
+
+    .menu-name{
+        font-size: 2.5vw;
+        margin-bottom: 2%;
+    }
+
+    .menu-description{
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+
+    .menu-entry-wrapper{
+        margin-bottom: 10%;
+    }
+
+    .menu-flourish{
+        margin: 30% 0 10% 0;
+        height: 27px;
+    }
+}
