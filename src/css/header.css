@@ -107,16 +107,20 @@
         height: var(--header-height);
     }
 
-    .header-left{
-        width: 50%;
+    .header-mid{
+        width: 70%;
     }
 
     .header-right{
         width: 500px;
     }
 
+    .header-left{
+        width: 300px;
+    }
+
     .header-logo{
-        width: 60%;
+        width: 150px;
     }
 }
 

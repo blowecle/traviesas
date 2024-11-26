@@ -1,7 +1,6 @@
 .contact-form{
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .contact-row-wrapper{
@@ -55,6 +54,28 @@
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px){
+    .message-input{
+        height: 150px;
+    }
+
+    .contact-form{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .message-input{
+        height: 150px;
+    }
+
+    .contact-form{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 1025px){
     .message-input{
         height: 150px;
     }
