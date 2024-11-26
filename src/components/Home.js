@@ -10,9 +10,9 @@ const Home = () => {
     return (
         <>
             <div className='home-wrapper'>
-                <img src={HomeBackgroundImage} alt='background' className='home-background'/>
                 <img src={HomeLogo} alt='logo' className='home-logo'/>
             </div>
+            <img src={HomeBackgroundImage} alt='background' className='home-background'/>
             <div className='home-lower-wrapper'>
                 <img src={TruckGif} alt='truck-gif' className='truck-gif'/>
                 <img src={Flourish} alt='flourish' className='flourish'/>

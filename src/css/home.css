@@ -42,28 +42,18 @@ body{
 
 .home-wrapper{
   position: relative;
-  height: 100vh;
-  width: 100%;
-  overflow: hidden;
+  width: 100vw;
 }
 
 a{
     text-decoration: none;
 }
 
-.home-background{
-  width: auto;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .home-logo{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 2;
 }
 
 .home-text{
@@ -94,16 +84,23 @@ a{
   align-items: center;
 }
 
+.app{
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 @media screen and (max-width: 380px){
   .home-background{
-    width: auto;
-    height: 100%;
+    width: 185%;
+    height: auto;
   }
 
   .home-logo{
     width: 50%;
     height: auto;
-    top: 150px;
+    top: 100px;
   }
 
   .home-text{
@@ -133,10 +130,15 @@ a{
 }
 
 @media screen and (min-width: 380px) and (max-width: 479px) {
+  .home-background{
+    width: 150%;
+    height: auto;
+  }
+
   .home-logo{
     width: 50%;
     height: auto;
-    top: 130px;
+    top: 100px;
   }
 
   .home-text{
@@ -167,6 +169,45 @@ a{
 
 @media screen and (min-width:480px) and (max-width: 768px){
   .home-background{
+    width: 150%;
+    height:auto;
+  }
+
+  .home-logo{
+    width: 40%;
+    height: auto;
+    top: 100px;
+  }
+  
+  .home-text{
+    font-size: 8vw;
+    width: 70%;
+  }
+
+  .truck-gif{
+    margin: 10% 0 10% 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .flourish{
+    width: 30%;
+    height: auto;
+  }
+
+  .home-lower-text{
+    font-size: 2.4vw;
+    margin: 10% 0 10% 0;
+    width: 65%;
+  }
+
+  .bottom-flourish{
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+  .home-background{
     width: 100%;
     height:auto;
   }
@@ -175,6 +216,45 @@ a{
     width: 40%;
     height: auto;
     top: 60px;
+  }
+  
+  .home-text{
+    font-size: 8vw;
+    width: 70%;
+  }
+
+  .truck-gif{
+    margin: 10% 0 10% 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .flourish{
+    width: 30%;
+    height: auto;
+  }
+
+  .home-lower-text{
+    font-size: 2.4vw;
+    margin: 10% 0 10% 0;
+    width: 65%;
+  }
+
+  .bottom-flourish{
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (min-width:1025px){
+  .home-background{
+    width: 100%;
+    height:auto;
+  }
+
+  .home-logo{
+    width: 30%;
+    height: auto;
+    top: 200px;
   }
   
   .home-text{

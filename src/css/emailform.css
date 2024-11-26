@@ -39,8 +39,28 @@
 }
 
 
-@media screen and (max-width: 469px){
+@media screen and (max-width: 479px){
     .message-input{
         height: 100px;
+    }
+
+    .contact-form{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .catering-wrapper{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .message-input{
+        height: 150px;
+    }
+
+    .contact-form{
+        width: 80%;
+        margin-top: 20px;
     }
 }
