@@ -256,6 +256,13 @@
 }
 
 @media screen and (min-width: 1024px){
+    .header-text{
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .intro-title{
         font-size: 38px;
     }
