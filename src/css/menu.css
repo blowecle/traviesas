@@ -34,9 +34,6 @@
     font-weight: 700;
 }
 
-.menu-item{
-    margin-bottom: 25px;
-}
 
 @media screen and (max-width: 479px) {
     .header-text{

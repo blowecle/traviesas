@@ -84,6 +84,7 @@
 
     .catering-title{
         margin-top: 30px;
+        font-size: 4vw;
     }
 
     .catering-text-two{
@@ -95,8 +96,9 @@
         margin: 100px 0 20px 0;
     }
 
-    .send-a-message{
+    .send-a-message, .catering-text{
         font-size: 3vw;
+        font-weight: 300;
     }
 
     .truck{
@@ -134,6 +136,7 @@
 
     .catering-title{
         margin-top: 30px;
+        font-size: 4vw;
     }
 
     .catering-text-two{
@@ -145,7 +148,7 @@
         margin: 100px 0 20px 0;
     }
 
-    .send-a-message{
+    .send-a-message, .catering-text{
         font-size: 3vw;
     }
 
@@ -188,6 +191,7 @@
     }
 
     .catering-title{
+        font-size: 3vw;
         margin-top: 30px;
     }
 
@@ -200,8 +204,8 @@
         margin: 100px 0 20px 0;
     }
 
-    .send-a-message{
-        font-size: 3vw;
+    .send-a-message, .catering-text{
+        font-size: 2vw;
     }
 
     .truck{
@@ -244,6 +248,7 @@
 
     .catering-title{
         margin-top: 30px;
+        font-size: 24px;
     }
 
     .catering-text-two{
@@ -255,8 +260,8 @@
         margin: 100px 0 20px 0;
     }
 
-    .send-a-message{
-        font-size: 24px;
+    .send-a-message, .catering-text{
+        font-size: 20px;
     }
 
     .truck{
