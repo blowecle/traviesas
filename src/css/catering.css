@@ -6,9 +6,11 @@
 .partial-border {
     position: relative;
     border: 2px solid var(--orange);
-    text-align: center;
     color: var(--orange);
     font-family: montserrat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .catering-title{

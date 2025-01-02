@@ -90,7 +90,7 @@ const Menu = () => {
                     <div className='menu-item'>
                         <img src={Veggie} alt='veggie' className='menu-filler'/>
                         <div className='menu-entry-wrapper'>
-                            <div className='menu-name'>ESQUITES (+€2)</div>
+                            <div className='menu-name'>ESQUITES</div>
                             <div className='menu-description'>SWEETCORN WITH HOUSEMADE<br/>MAYO, CILANTRO, CHEESE<br/>AND VALENTINA</div>
                         </div>
                     </div>
@@ -107,10 +107,21 @@ const Menu = () => {
                     <div className='menu-item'>
                         <img src={Drink} alt='drink' className='menu-filler'/>
                         <div className='menu-entry-wrapper'>
-                            <div className='menu-name'>AGUA DE FRESCA</div>
+                            <div className='menu-name'>AGUA DE FRESA</div>
                             <div className='menu-description'>STRAWBERRY AND LIME</div>
                         </div>
                     </div>
+                    <div className='menu-note menu-description'
+                        style={{
+                            marginTop: '10%',
+                            fontStyle: 'italic'
+                        }}
+                    >Menu may change depending on seasonality</div>
+                    <div className='menu-note menu-description'
+                        style={{
+                            fontStyle: 'italic'
+                        }}
+                    >Gluten Free, Vegetarian, and Vegan options available</div>
                 </div>
             <img src={Flourish} alt='flourish' className='menu-flourish'/>
             </section>
