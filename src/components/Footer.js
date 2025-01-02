@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <section className='footer-wrapper'>
             <img src={Logo} alt='logo' className='footer-logo'/>
-            <div className='footer-text'>Serving the fine folks of Ireland, Ireland.</div>
+            <div className='footer-text'>Serving the fine folks of Ireland.</div>
             <div className='footer-contact-text'>CONTACT US AT</div>
             <div className='footer-contact-wrapper'>
                 <a href='mailto:cocinatraviesas@gmail.com' className='footer-email'
