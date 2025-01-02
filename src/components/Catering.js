@@ -21,7 +21,7 @@ const Catering = () => {
                     <div className='catering-section'>
                         <div className='catering-text'
                         style={{
-                            marginTop: '20px'
+                            marginTop: '40px'
                         }}
                         >TOSTADA & TACO COMBOS</div>
                         <div className='catering-text'>ENSALADAS</div>
@@ -48,7 +48,7 @@ const Catering = () => {
                         <div className='catering-text'
                         style={
                             {
-                                marginBottom: '20px'
+                                marginBottom: '40px'
                             }
                         }>- WEDDINGS!</div>
                     </div>
